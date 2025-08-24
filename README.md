@@ -29,3 +29,10 @@ Link](https://www.kaggle.com/datasets/crawford/80-cereals)
 - Imputed missing values in numeric/categorical
 columns
 - Cleaned dataset saved as data\cleaneddataset.csv
+- ## 🔄 Day 4 – Fix Data Types & Remove Duplicates
+- Converted date columns to datetime format using
+`pd.to_datetime()
+- Ensured numeric columns are in correct type using
+pd.to_numeric()
+- Removed duplicate records using drop_duplicates()
+- Saved updated dataset as data\cleaneddataset_v2.csv
