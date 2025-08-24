@@ -15,3 +15,10 @@ import pandas as pd
 df = pd.read_csv('cereal.csv')
 print(df.head())
 print(df.tail())
+# DAY-2 EDA Task - 19 Aug
+## 📘 Objective
+Beginner-level EDA using pandas: load dataset, check shape, column names, and
+preview rows.
+## 📂 Dataset
+Source: [Kaggle
+Link](https://www.kaggle.com/datasets/crawford/80-cereals)
