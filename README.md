@@ -22,3 +22,10 @@ preview rows.
 ## 📂 Dataset
 Source: [Kaggle
 Link](https://www.kaggle.com/datasets/crawford/80-cereals)
+## 🧹 Day 3 – Handling Missing Data
+- Checked for missing values using `isna().sum()`
+- Applied the following methods:
+- Dropped rows with all-null values (if any)
+- Imputed missing values in numeric/categorical
+columns
+- Cleaned dataset saved as data\cleaneddataset.csv
